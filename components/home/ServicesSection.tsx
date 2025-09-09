@@ -2,15 +2,15 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { 
-  Cloud, 
-  Settings, 
-  Smartphone, 
-  Brain, 
-  Shield, 
+import {
+  Cloud,
+  Settings,
+  Smartphone,
+  Brain,
+  Shield,
   Headphones,
   Building,
-  ArrowRight 
+  ArrowRight
 } from 'lucide-react';
 
 const services = [
@@ -82,7 +82,7 @@ export default function ServicesSection() {
             <span className="gradient-text">Innovation</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From concept to deployment, we provide comprehensive technology solutions 
+            From concept to deployment, we provide comprehensive technology solutions
             that scale with your business needs.
           </p>
         </motion.div>
